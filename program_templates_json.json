@@ -1,0 +1,371 @@
+{
+  "program_templates": [
+    {
+      "id": "beginner_fat_loss_8w",
+      "name": "Beginner Fat Loss Program",
+      "description": "An 8-week foundational fat loss program combining full-body strength training with basic cardio. Perfect for newcomers to fitness who want to lose weight and build basic strength. Features bodyweight exercises progressing to light equipment.",
+      "goal": "fat_loss",
+      "experience_level": "beginner",
+      "duration_weeks": 8,
+      "frequency_per_week": 4,
+      "equipment_required": ["bodyweight", "dumbbells", "resistance_bands"],
+      "program_days": [
+        {
+          "week": 1,
+          "day_1": {
+            "day_type": "workout",
+            "exercises": ["bodyweight_squat", "push_up", "dumbbell_row", "plank", "jumping_jacks"],
+            "workout_name": "Full Body Foundation A"
+          },
+          "day_2": { "day_type": "active_recovery" },
+          "day_3": {
+            "day_type": "workout", 
+            "exercises": ["lunges", "incline_push_up", "bent_over_row", "dead_bug", "mountain_climbers"],
+            "workout_name": "Full Body Foundation B"
+          },
+          "day_4": { "day_type": "rest" },
+          "day_5": {
+            "day_type": "workout",
+            "exercises": ["goblet_squat", "dumbbell_press", "lat_pulldown", "bicycle_crunch", "burpees"],
+            "workout_name": "Full Body Strength A"
+          },
+          "day_6": { "day_type": "active_recovery" },
+          "day_7": {
+            "day_type": "workout",
+            "exercises": ["step_ups", "dumbbell_flyes", "seated_row", "russian_twist", "high_knees"],
+            "workout_name": "Full Body Strength B"
+          }
+        }
+      ],
+      "progression_notes": "Weeks 1-2: Learn movement patterns. Weeks 3-4: Add light weights. Weeks 5-6: Increase intensity. Weeks 7-8: Peak performance."
+    },
+    {
+      "id": "intermediate_fat_loss_12w",
+      "name": "Intermediate Fat Loss Program",
+      "description": "A comprehensive 12-week fat loss program combining strength training with metabolic conditioning. Features upper/lower splits with integrated cardio finishers. Designed for those with 6+ months training experience.",
+      "goal": "fat_loss",
+      "experience_level": "intermediate",
+      "duration_weeks": 12,
+      "frequency_per_week": 5,
+      "equipment_required": ["dumbbells", "barbell", "bench", "pull_up_bar", "resistance_bands"],
+      "program_days": [
+        {
+          "week": 1,
+          "day_1": {
+            "day_type": "workout",
+            "exercises": ["barbell_squat", "romanian_deadlift", "walking_lunges", "calf_raises", "leg_raises", "plank_to_push_up"],
+            "workout_name": "Lower Body Power"
+          },
+          "day_2": {
+            "day_type": "workout",
+            "exercises": ["bench_press", "bent_over_row", "overhead_press", "pull_ups", "dips", "battle_ropes"],
+            "workout_name": "Upper Body Strength"
+          },
+          "day_3": { "day_type": "active_recovery" },
+          "day_4": {
+            "day_type": "workout",
+            "exercises": ["deadlift", "bulgarian_split_squat", "hip_thrust", "leg_curls", "hanging_knee_raises", "sprint_intervals"],
+            "workout_name": "Lower Body Strength"
+          },
+          "day_5": {
+            "day_type": "workout",
+            "exercises": ["incline_bench_press", "lat_pulldown", "lateral_raises", "barbell_curls", "tricep_dips", "rowing_intervals"],
+            "workout_name": "Upper Body Hypertrophy"
+          },
+          "day_6": {
+            "day_type": "workout",
+            "exercises": ["kettlebell_swings", "thrusters", "box_jumps", "push_up_variations", "mountain_climbers", "burpee_variations"],
+            "workout_name": "Metabolic Finisher"
+          },
+          "day_7": { "day_type": "rest" }
+        }
+      ],
+      "progression_notes": "Weeks 1-3: Foundation. Weeks 4-6: Intensity increase. Weeks 7-9: Metabolic focus. Weeks 10-12: Peak conditioning."
+    },
+    {
+      "id": "beginner_muscle_building_12w",
+      "name": "Beginner Muscle Building Program",
+      "description": "A 12-week muscle building program designed for beginners. Features full-body workouts 3x per week focusing on compound movements and progressive overload. Emphasizes proper form and consistent strength gains.",
+      "goal": "muscle_building",
+      "experience_level": "beginner",
+      "duration_weeks": 12,
+      "frequency_per_week": 3,
+      "equipment_required": ["dumbbells", "barbell", "bench", "pull_up_bar"],
+      "program_days": [
+        {
+          "week": 1,
+          "day_1": {
+            "day_type": "workout",
+            "exercises": ["barbell_squat", "bench_press", "bent_over_row", "overhead_press", "deadlift", "plank"],
+            "workout_name": "Full Body A"
+          },
+          "day_2": { "day_type": "rest" },
+          "day_3": {
+            "day_type": "workout",
+            "exercises": ["romanian_deadlift", "incline_dumbbell_press", "lat_pulldown", "dumbbell_shoulder_press", "goblet_squat", "bicycle_crunch"],
+            "workout_name": "Full Body B"
+          },
+          "day_4": { "day_type": "rest" },
+          "day_5": {
+            "day_type": "workout",
+            "exercises": ["front_squat", "dumbbell_bench_press", "pull_ups", "lateral_raises", "barbell_curls", "tricep_extensions"],
+            "workout_name": "Full Body C"
+          },
+          "day_6": { "day_type": "rest" },
+          "day_7": { "day_type": "rest" }
+        }
+      ],
+      "progression_notes": "Focus on adding weight every week. Weeks 1-4: Form mastery. Weeks 5-8: Strength building. Weeks 9-12: Size gains."
+    },
+    {
+      "id": "intermediate_muscle_building_12w",
+      "name": "Intermediate Muscle Building Program", 
+      "description": "A 12-week muscle building program using push/pull/legs split. Designed for intermediate lifters with 6+ months experience. Features compound movements with targeted accessory work for maximum hypertrophy.",
+      "goal": "muscle_building",
+      "experience_level": "intermediate", 
+      "duration_weeks": 12,
+      "frequency_per_week": 6,
+      "equipment_required": ["dumbbells", "barbell", "bench", "pull_up_bar", "cable_machine", "squat_rack"],
+      "program_days": [
+        {
+          "week": 1,
+          "day_1": {
+            "day_type": "workout",
+            "exercises": ["bench_press", "incline_dumbbell_press", "overhead_press", "lateral_raises", "tricep_dips", "close_grip_bench_press"],
+            "workout_name": "Push Day"
+          },
+          "day_2": {
+            "day_type": "workout", 
+            "exercises": ["deadlift", "pull_ups", "barbell_rows", "lat_pulldown", "barbell_curls", "hammer_curls"],
+            "workout_name": "Pull Day"
+          },
+          "day_3": {
+            "day_type": "workout",
+            "exercises": ["barbell_squat", "romanian_deadlift", "leg_press", "leg_curls", "calf_raises", "leg_raises"],
+            "workout_name": "Legs Day"
+          },
+          "day_4": {
+            "day_type": "workout",
+            "exercises": ["incline_bench_press", "dumbbell_flyes", "arnold_press", "rear_delt_flyes", "diamond_push_ups", "overhead_tricep_extension"],
+            "workout_name": "Push Day B"
+          },
+          "day_5": {
+            "day_type": "workout",
+            "exercises": ["bent_over_row", "wide_grip_pulldowns", "cable_rows", "face_pulls", "preacher_curls", "cable_hammer_curls"],
+            "workout_name": "Pull Day B"
+          },
+          "day_6": {
+            "day_type": "workout", 
+            "exercises": ["front_squat", "stiff_leg_deadlift", "bulgarian_split_squat", "leg_extensions", "seated_calf_raises", "hanging_knee_raises"],
+            "workout_name": "Legs Day B"
+          },
+          "day_7": { "day_type": "rest" }
+        }
+      ],
+      "progression_notes": "Progressive overload every week. Weeks 1-4: Volume building. Weeks 5-8: Intensity focus. Weeks 9-12: Hypertrophy peak."
+    },
+    {
+      "id": "advanced_muscle_building_16w",
+      "name": "Advanced Muscle Building Program",
+      "description": "A 16-week advanced muscle building program for experienced lifters (2+ years). Features periodized training with strength blocks, hypertrophy phases, and specialization techniques. Includes advanced training methods.",
+      "goal": "muscle_building", 
+      "experience_level": "advanced",
+      "duration_weeks": 16,
+      "frequency_per_week": 6,
+      "equipment_required": ["dumbbells", "barbell", "bench", "pull_up_bar", "cable_machine", "squat_rack", "dip_station"],
+      "program_days": [
+        {
+          "week": 1,
+          "day_1": {
+            "day_type": "workout",
+            "exercises": ["barbell_bench_press", "weighted_dips", "incline_barbell_press", "military_press", "close_grip_bench_press", "tricep_pushdowns"],
+            "workout_name": "Heavy Push"
+          },
+          "day_2": {
+            "day_type": "workout",
+            "exercises": ["weighted_pull_ups", "barbell_rows", "deadlifts", "cable_rows", "barbell_curls", "cable_curls"],
+            "workout_name": "Heavy Pull"
+          },
+          "day_3": {
+            "day_type": "workout",
+            "exercises": ["back_squat", "front_squat", "romanian_deadlift", "walking_lunges", "leg_press", "standing_calf_raises"],
+            "workout_name": "Heavy Legs"
+          },
+          "day_4": {
+            "day_type": "workout",
+            "exercises": ["incline_dumbbell_press", "pec_deck", "dumbbell_shoulder_press", "lateral_raise_variations", "skull_crushers", "rope_pushdowns"],
+            "workout_name": "Hypertrophy Push"
+          },
+          "day_5": {
+            "day_type": "workout",
+            "exercises": ["lat_pulldown_variations", "seated_cable_row", "reverse_flyes", "shrugs", "preacher_curls", "concentration_curls"],
+            "workout_name": "Hypertrophy Pull"
+          },
+          "day_6": {
+            "day_type": "workout",
+            "exercises": ["leg_extensions", "leg_curls", "hip_thrusts", "calf_raise_variations", "abs_circuit", "glute_bridges"],
+            "workout_name": "Hypertrophy Legs"
+          },
+          "day_7": { "day_type": "rest" }
+        }
+      ],
+      "progression_notes": "Weeks 1-4: Strength foundation. Weeks 5-8: Volume accumulation. Weeks 9-12: Intensity techniques. Weeks 13-16: Specialization phase."
+    },
+    {
+      "id": "beginner_general_fitness_8w",
+      "name": "Beginner General Fitness Program",
+      "description": "An 8-week comprehensive fitness program for absolute beginners. Combines cardiovascular health, basic strength, flexibility, and movement quality. Perfect introduction to structured exercise.",
+      "goal": "general_fitness",
+      "experience_level": "beginner",
+      "duration_weeks": 8,
+      "frequency_per_week": 4,
+      "equipment_required": ["bodyweight", "resistance_bands", "dumbbells"],
+      "program_days": [
+        {
+          "week": 1,
+          "day_1": {
+            "day_type": "workout",
+            "exercises": ["bodyweight_squats", "wall_push_ups", "assisted_lunges", "arm_circles", "marching_in_place", "stretching_routine"],
+            "workout_name": "Movement Introduction"
+          },
+          "day_2": { "day_type": "active_recovery" },
+          "day_3": {
+            "day_type": "workout",
+            "exercises": ["step_ups", "incline_push_ups", "glute_bridges", "band_pulls", "walking", "flexibility_work"],
+            "workout_name": "Basic Conditioning"
+          },
+          "day_4": { "day_type": "rest" },
+          "day_5": {
+            "day_type": "workout", 
+            "exercises": ["chair_squats", "knee_push_ups", "standing_calf_raises", "shoulder_shrugs", "light_cardio", "core_breathing"],
+            "workout_name": "Foundation Building"
+          },
+          "day_6": { "day_type": "active_recovery" },
+          "day_7": {
+            "day_type": "workout",
+            "exercises": ["modified_burpees", "assisted_squats", "wall_sits", "arm_swings", "gentle_movement", "relaxation"],
+            "workout_name": "Active Recovery Plus"
+          }
+        }
+      ],
+      "progression_notes": "Weeks 1-2: Movement basics. Weeks 3-4: Add light resistance. Weeks 5-6: Increase duration. Weeks 7-8: Build confidence."
+    },
+    {
+      "id": "intermediate_general_fitness_12w", 
+      "name": "Intermediate General Fitness Program",
+      "description": "A 12-week well-rounded fitness program combining strength, cardio, flexibility, and athletic movement. Designed for those with basic fitness experience wanting overall health improvement.",
+      "goal": "general_fitness",
+      "experience_level": "intermediate",
+      "duration_weeks": 12,
+      "frequency_per_week": 5,
+      "equipment_required": ["dumbbells", "resistance_bands", "pull_up_bar", "cardio_equipment"],
+      "program_days": [
+        {
+          "week": 1,
+          "day_1": {
+            "day_type": "workout",
+            "exercises": ["goblet_squats", "push_ups", "dumbbell_rows", "shoulder_press", "planks", "jumping_jacks"],
+            "workout_name": "Total Body Strength"
+          },
+          "day_2": {
+            "day_type": "workout",
+            "exercises": ["treadmill_intervals", "stationary_bike", "rowing_machine", "elliptical", "cool_down_walk", "stretching"],
+            "workout_name": "Cardio Focus"
+          },
+          "day_3": {
+            "day_type": "workout",
+            "exercises": ["deadlifts", "bench_press", "pull_ups", "lunges", "dips", "mountain_climbers"],
+            "workout_name": "Compound Movements"
+          },
+          "day_4": {
+            "day_type": "workout",
+            "exercises": ["yoga_flow", "pilates_moves", "mobility_drills", "balance_exercises", "breathing_exercises", "meditation"],
+            "workout_name": "Flexibility & Recovery"
+          },
+          "day_5": {
+            "day_type": "workout",
+            "exercises": ["circuit_training", "bodyweight_exercises", "plyometric_moves", "agility_drills", "core_circuit", "cool_down"],
+            "workout_name": "Athletic Conditioning"
+          },
+          "day_6": { "day_type": "active_recovery" },
+          "day_7": { "day_type": "rest" }
+        }
+      ],
+      "progression_notes": "Weeks 1-4: Base building. Weeks 5-8: Intensity progression. Weeks 9-12: Peak fitness and maintenance strategies."
+    },
+    {
+      "id": "advanced_general_fitness_20w",
+      "name": "Advanced General Fitness Program", 
+      "description": "A comprehensive 20-week program for advanced fitness enthusiasts. Incorporates periodized strength training, advanced cardio protocols, mobility work, and sport-specific movements for peak athletic performance.",
+      "goal": "general_fitness",
+      "experience_level": "advanced", 
+      "duration_weeks": 20,
+      "frequency_per_week": 6,
+      "equipment_required": ["full_gym_access", "olympic_weights", "plyometric_equipment", "cardio_machines", "functional_training_tools"],
+      "program_days": [
+        {
+          "week": 1,
+          "day_1": {
+            "day_type": "workout",
+            "exercises": ["back_squat", "bench_press", "bent_over_row", "overhead_press", "weighted_dips", "barbell_curls"],
+            "workout_name": "Strength Foundation"
+          },
+          "day_2": {
+            "day_type": "workout", 
+            "exercises": ["hiit_intervals", "sprint_training", "cycling_intervals", "rowing_sprints", "recovery_cardio", "stretching"],
+            "workout_name": "Cardio Performance"
+          },
+          "day_3": {
+            "day_type": "workout",
+            "exercises": ["deadlift_variations", "pull_up_variations", "squat_variations", "press_variations", "loaded_carries", "core_complex"],
+            "workout_name": "Movement Mastery"
+          },
+          "day_4": {
+            "day_type": "workout",
+            "exercises": ["box_jumps", "medicine_ball_throws", "agility_ladder", "cone_drills", "battle_ropes", "plyometric_circuit"],
+            "workout_name": "Power & Agility"
+          },
+          "day_5": {
+            "day_type": "workout",
+            "exercises": ["olympic_lifts", "compound_combinations", "functional_movements", "unilateral_training", "stability_work", "coordination_drills"],
+            "workout_name": "Athletic Performance"
+          },
+          "day_6": {
+            "day_type": "workout",
+            "exercises": ["yoga_advanced", "deep_stretching", "myofascial_release", "breathing_techniques", "balance_challenges", "mindfulness"],
+            "workout_name": "Recovery & Mobility"
+          },
+          "day_7": { "day_type": "rest" }
+        }
+      ],
+      "progression_notes": "Weeks 1-5: Foundation phase. Weeks 6-10: Build phase. Weeks 11-15: Intensification. Weeks 16-20: Peaking and testing."
+    }
+  ],
+  "exercise_database_info": {
+    "note": "Exercise names correspond to ExerciseDB v1 API exercise identifiers. Each program references exercises that should be available in the 1500+ exercise database.",
+    "common_exercise_mappings": {
+      "push_exercises": ["bench_press", "incline_bench_press", "overhead_press", "dumbbell_press", "push_ups", "dips", "lateral_raises", "tricep_extensions"],
+      "pull_exercises": ["pull_ups", "lat_pulldown", "bent_over_row", "cable_row", "deadlift", "barbell_curls", "hammer_curls", "face_pulls"],
+      "leg_exercises": ["barbell_squat", "deadlift", "lunges", "leg_press", "calf_raises", "hip_thrust", "leg_curls", "leg_extensions"],
+      "cardio_exercises": ["jumping_jacks", "burpees", "mountain_climbers", "high_knees", "battle_ropes", "sprint_intervals"]
+    },
+    "equipment_categories": {
+      "bodyweight": "No equipment required - bodyweight only exercises",
+      "dumbbells": "Pair of adjustable dumbbells or dumbbell set",
+      "barbell": "Olympic barbell with weight plates", 
+      "bench": "Adjustable workout bench",
+      "pull_up_bar": "Pull-up/chin-up bar (doorway or standalone)",
+      "resistance_bands": "Set of resistance bands with varying resistance",
+      "cable_machine": "Cable machine or functional trainer",
+      "squat_rack": "Power rack or squat rack with safety bars",
+      "cardio_equipment": "Treadmill, bike, rowing machine, or similar",
+      "full_gym_access": "Complete commercial gym or advanced home gym setup"
+    }
+  },
+  "implementation_notes": {
+    "routine_creation": "Each workout_name should correspond to a routine in the user's routine library, created using exercises from ExerciseDB v1 API",
+    "progressive_overload": "Programs should track weight, reps, and sets progression week by week",
+    "rest_periods": "Active recovery days should include light movement, stretching, or low-intensity cardio",
+    "customization": "Users can substitute exercises based on available equipment and ExerciseDB exercise alternatives"
+  }
+}

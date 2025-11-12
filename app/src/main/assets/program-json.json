@@ -1,0 +1,487 @@
+{
+  "program": {
+    "id": "90day_program_v1",
+    "name": "90 Day Transformation",
+    "description": "Progressive strength program - Push/Pull/Legs split",
+    "totalWeeks": 13,
+    "totalDays": 90,
+    "daysPerWeek": 6,
+    "splitType": "PPL"
+  },
+  "weekTemplates": [
+    {
+      "weekRange": "1-4",
+      "name": "Foundation Phase",
+      "focus": "Form and Volume",
+      "schedule": [
+        "Push A",
+        "Pull A",
+        "Legs A",
+        "Push B",
+        "Pull B",
+        "Legs B",
+        "Rest"
+      ]
+    },
+    {
+      "weekRange": "5-8",
+      "name": "Strength Phase",
+      "focus": "Progressive Overload",
+      "schedule": [
+        "Push A",
+        "Pull A",
+        "Legs A",
+        "Push B",
+        "Pull B",
+        "Legs B",
+        "Rest"
+      ]
+    },
+    {
+      "weekRange": "9-12",
+      "name": "Intensity Phase",
+      "focus": "Peak Strength",
+      "schedule": [
+        "Push A",
+        "Pull A",
+        "Legs A",
+        "Push B",
+        "Pull B",
+        "Legs B",
+        "Rest"
+      ]
+    },
+    {
+      "weekRange": "13",
+      "name": "Deload",
+      "focus": "Recovery",
+      "schedule": [
+        "Upper",
+        "Lower",
+        "Rest",
+        "Upper",
+        "Lower",
+        "Rest",
+        "Rest"
+      ]
+    }
+  ],
+  "workoutTemplates": {
+    "push_a": {
+      "name": "Push A - Chest Focus",
+      "exercises": [
+        {
+          "exerciseId": "Barbell_Bench_Press_-_Medium_Grip",
+          "sets": 3,
+          "repRange": "8-10",
+          "rpeTarget": 7.5,
+          "restSeconds": 150,
+          "progressionType": "linear",
+          "exerciseName": "Barbell Bench Press - Medium Grip"
+        },
+        {
+          "exerciseId": "Barbell_Shoulder_Press",
+          "sets": 3,
+          "repRange": "8-10",
+          "rpeTarget": 7.5,
+          "restSeconds": 120,
+          "progressionType": "linear",
+          "exerciseName": "Barbell Shoulder Press"
+        },
+        {
+          "exerciseId": "Incline_Dumbbell_Press",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 7,
+          "restSeconds": 90,
+          "progressionType": "double",
+          "exerciseName": "Incline Dumbbell Press"
+        },
+        {
+          "exerciseId": "Dips_-_Chest_Version",
+          "sets": 3,
+          "repRange": "8-12",
+          "rpeTarget": 8,
+          "restSeconds": 90,
+          "progressionType": "bodyweight",
+          "exerciseName": "Dips - Chest Version"
+        },
+        {
+          "exerciseId": "Lateral_Raise_-_With_Bands",
+          "sets": 3,
+          "repRange": "12-15",
+          "rpeTarget": 8,
+          "restSeconds": 60,
+          "progressionType": "volume",
+          "exerciseName": "Lateral Raise - With Bands"
+        },
+        {
+          "exerciseId": "Triceps_Pushdown",
+          "sets": 3,
+          "repRange": "12-15",
+          "rpeTarget": 8,
+          "restSeconds": 60,
+          "progressionType": "volume",
+          "exerciseName": "Triceps Pushdown"
+        }
+      ]
+    },
+    "push_b": {
+      "name": "Push B - Shoulder Focus",
+      "exercises": [
+        {
+          "exerciseId": "Barbell_Shoulder_Press",
+          "sets": 3,
+          "repRange": "6-8",
+          "rpeTarget": 8,
+          "restSeconds": 150,
+          "progressionType": "linear",
+          "exerciseName": "Barbell Shoulder Press"
+        },
+        {
+          "exerciseId": "Dumbbell_Bench_Press",
+          "sets": 3,
+          "repRange": "8-10",
+          "rpeTarget": 7.5,
+          "restSeconds": 120,
+          "progressionType": "linear",
+          "exerciseName": "Dumbbell Bench Press"
+        },
+        {
+          "exerciseId": "Board_Press",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 7,
+          "restSeconds": 90,
+          "progressionType": "double",
+          "exerciseName": "Board Press"
+        },
+        {
+          "exerciseId": "Incline_Cable_Flye",
+          "sets": 3,
+          "repRange": "12-15",
+          "rpeTarget": 7,
+          "restSeconds": 60,
+          "progressionType": "volume",
+          "exerciseName": "Incline Cable Flye"
+        },
+        {
+          "exerciseId": "Upright_Row_-_With_Bands",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 7,
+          "restSeconds": 90,
+          "progressionType": "double",
+          "exerciseName": "Upright Row - With Bands"
+        },
+        {
+          "exerciseId": "Sled_Overhead_Triceps_Extension",
+          "sets": 3,
+          "repRange": "12-15",
+          "rpeTarget": 8,
+          "restSeconds": 60,
+          "progressionType": "volume",
+          "exerciseName": "Sled Overhead Triceps Extension"
+        }
+      ]
+    },
+    "pull_a": {
+      "name": "Pull A - Width Focus",
+      "exercises": [
+        {
+          "exerciseId": "Pullups",
+          "sets": 3,
+          "repRange": "6-10",
+          "rpeTarget": 8,
+          "restSeconds": 150,
+          "progressionType": "bodyweight",
+          "exerciseName": "Pullups"
+        },
+        {
+          "exerciseId": "Barbell_Curl",
+          "sets": 3,
+          "repRange": "8-10",
+          "rpeTarget": 7.5,
+          "restSeconds": 120,
+          "progressionType": "linear",
+          "exerciseName": "Barbell Curl"
+        },
+        {
+          "exerciseId": "V-Bar_Pulldown",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 7,
+          "restSeconds": 90,
+          "progressionType": "double",
+          "exerciseName": "V-Bar Pulldown"
+        },
+        {
+          "exerciseId": "Seated_Cable_Rows",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 7,
+          "restSeconds": 90,
+          "progressionType": "double",
+          "exerciseName": "Seated Cable Rows"
+        },
+        {
+          "exerciseId": "Face_Pull",
+          "sets": 3,
+          "repRange": "15-20",
+          "rpeTarget": 7,
+          "restSeconds": 60,
+          "progressionType": "volume",
+          "exerciseName": "Face Pull"
+        },
+        {
+          "exerciseId": "Barbell_Curl",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 8,
+          "restSeconds": 60,
+          "progressionType": "double",
+          "exerciseName": "Barbell Curl"
+        }
+      ]
+    },
+    "pull_b": {
+      "name": "Pull B - Thickness Focus",
+      "exercises": [
+        {
+          "exerciseId": "Car_Deadlift",
+          "sets": 3,
+          "repRange": "5-6",
+          "rpeTarget": 8,
+          "restSeconds": 180,
+          "progressionType": "linear",
+          "exerciseName": "Car Deadlift"
+        },
+        {
+          "exerciseId": "Dumbbell_Shrug",
+          "sets": 3,
+          "repRange": "8-10",
+          "rpeTarget": 7.5,
+          "restSeconds": 120,
+          "progressionType": "linear",
+          "exerciseName": "Dumbbell Shrug"
+        },
+        {
+          "exerciseId": "Lying_T-Bar_Row",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 7,
+          "restSeconds": 90,
+          "progressionType": "double",
+          "exerciseName": "Lying T-Bar Row"
+        },
+        {
+          "exerciseId": "Chin-Up",
+          "sets": 3,
+          "repRange": "6-10",
+          "rpeTarget": 8,
+          "restSeconds": 120,
+          "progressionType": "bodyweight",
+          "exerciseName": "Chin-Up"
+        },
+        {
+          "exerciseId": "Cable_Shrugs",
+          "sets": 3,
+          "repRange": "12-15",
+          "rpeTarget": 7,
+          "restSeconds": 60,
+          "progressionType": "volume",
+          "exerciseName": "Cable Shrugs"
+        },
+        {
+          "exerciseId": "Hammer_Curls",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 8,
+          "restSeconds": 60,
+          "progressionType": "double",
+          "exerciseName": "Hammer Curls"
+        }
+      ]
+    },
+    "legs_a": {
+      "name": "Legs A - Quad Focus",
+      "exercises": [
+        {
+          "exerciseId": "Barbell_Hack_Squat",
+          "sets": 3,
+          "repRange": "8-10",
+          "rpeTarget": 7.5,
+          "restSeconds": 180,
+          "progressionType": "linear",
+          "exerciseName": "Barbell Hack Squat"
+        },
+        {
+          "exerciseId": "Romanian_Deadlift",
+          "sets": 3,
+          "repRange": "8-10",
+          "rpeTarget": 7.5,
+          "restSeconds": 120,
+          "progressionType": "linear",
+          "exerciseName": "Romanian Deadlift"
+        },
+        {
+          "exerciseId": "Leg_Press",
+          "sets": 3,
+          "repRange": "12-15",
+          "rpeTarget": 7,
+          "restSeconds": 90,
+          "progressionType": "double",
+          "exerciseName": "Leg Press"
+        },
+        {
+          "exerciseId": "Barbell_Side_Split_Squat",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 7,
+          "restSeconds": 90,
+          "progressionType": "double",
+          "exerciseName": "Barbell Side Split Squat"
+        },
+        {
+          "exerciseId": "Ball_Leg_Curl",
+          "sets": 3,
+          "repRange": "12-15",
+          "rpeTarget": 7,
+          "restSeconds": 60,
+          "progressionType": "volume",
+          "exerciseName": "Ball Leg Curl"
+        },
+        {
+          "exerciseId": "Standing_Calf_Raises",
+          "sets": 3,
+          "repRange": "15-20",
+          "rpeTarget": 7,
+          "restSeconds": 60,
+          "progressionType": "volume",
+          "exerciseName": "Standing Calf Raises"
+        }
+      ]
+    },
+    "legs_b": {
+      "name": "Legs B - Posterior Focus",
+      "exercises": [
+        {
+          "exerciseId": "Sumo_Deadlift",
+          "sets": 3,
+          "repRange": "6-8",
+          "rpeTarget": 8,
+          "restSeconds": 180,
+          "progressionType": "linear",
+          "exerciseName": "Sumo Deadlift"
+        },
+        {
+          "exerciseId": "Jefferson_Squats",
+          "sets": 3,
+          "repRange": "8-10",
+          "rpeTarget": 7.5,
+          "restSeconds": 150,
+          "progressionType": "linear",
+          "exerciseName": "Jefferson Squats"
+        },
+        {
+          "exerciseId": "Barbell_Hip_Thrust",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 7,
+          "restSeconds": 90,
+          "progressionType": "double",
+          "exerciseName": "Barbell Hip Thrust"
+        },
+        {
+          "exerciseId": "Hack_Squat",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 7,
+          "restSeconds": 90,
+          "progressionType": "double",
+          "exerciseName": "Hack Squat"
+        },
+        {
+          "exerciseId": "Leg_Extensions",
+          "sets": 3,
+          "repRange": "12-15",
+          "rpeTarget": 7,
+          "restSeconds": 60,
+          "progressionType": "volume",
+          "exerciseName": "Leg Extensions"
+        },
+        {
+          "exerciseId": "Lunge_Sprint",
+          "sets": 3,
+          "repRange": "10-12",
+          "rpeTarget": 7,
+          "restSeconds": 90,
+          "progressionType": "double",
+          "exerciseName": "Lunge Sprint"
+        }
+      ]
+    }
+  },
+  "progressionRules": {
+    "linear": {
+      "description": "Add 2.5kg when all sets completed at target RPE < 8",
+      "increment": 2.5,
+      "deloadTrigger": "3 failed sessions",
+      "deloadAmount": 0.9
+    },
+    "double": {
+      "description": "Add reps first, then weight",
+      "repProgression": "Start at min, work to max, then add weight",
+      "weightIncrement": 2.5
+    },
+    "volume": {
+      "description": "Focus on total volume",
+      "setProgression": "Add sets before weight",
+      "maxSets": 5
+    },
+    "bodyweight": {
+      "description": "Progress reps, then add weight",
+      "repTargets": [
+        5,
+        8,
+        10,
+        12
+      ],
+      "weightProgression": "Add 2.5kg after 12 reps"
+    }
+  },
+  "warmupProtocol": {
+    "compound": [
+      {
+        "percentage": 0.4,
+        "reps": 10
+      },
+      {
+        "percentage": 0.6,
+        "reps": 5
+      },
+      {
+        "percentage": 0.75,
+        "reps": 3
+      },
+      {
+        "percentage": 0.85,
+        "reps": 2
+      },
+      {
+        "percentage": 0.9,
+        "reps": 1
+      }
+    ],
+    "isolation": [
+      {
+        "percentage": 0.5,
+        "reps": 15
+      },
+      {
+        "percentage": 0.7,
+        "reps": 10
+      }
+    ]
+  }
+}

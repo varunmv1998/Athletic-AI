@@ -1,0 +1,304 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "text": "The iron never lies. 200 pounds is always 200 pounds.",
+      "context": "general",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 2,
+      "text": "Your workout is the highlight of your day. Make it count.",
+      "context": "pre_workout",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 3,
+      "text": "Dawn patrol: While they sleep, you grow.",
+      "context": "general",
+      "timeOfDay": "morning"
+    },
+    {
+      "id": 4,
+      "text": "That weight used to be your max. Now it's your warm-up.",
+      "context": "after_pr",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 5,
+      "text": "Legs today means walking tall tomorrow.",
+      "context": "leg_day",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 6,
+      "text": "Day 12 and counting. Consistency is your superpower.",
+      "context": "long_streak",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 7,
+      "text": "Rest day? Your muscles grow when you recover.",
+      "context": "rest_day",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 8,
+      "text": "You don't have to be perfect. You just have to show up.",
+      "context": "missed_workout",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 9,
+      "text": "Three more reps. That's where champions live.",
+      "context": "during_workout",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 10,
+      "text": "Monday motivation is temporary. Discipline is forever.",
+      "context": "monday",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 11,
+      "text": "Your deadlift is improving. Time to pull the future toward you.",
+      "context": "after_deadlift",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 12,
+      "text": "Evening sessions hit different. Stress out, strength in.",
+      "context": "general",
+      "timeOfDay": "evening"
+    },
+    {
+      "id": 13,
+      "text": "Push day: Where comfort zones go to die.",
+      "context": "push_day",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 14,
+      "text": "Pull day: Row your way to a wider back.",
+      "context": "pull_day",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 15,
+      "text": "New week, new PRs waiting to be claimed.",
+      "context": "week_start",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 16,
+      "text": "5AM crew: Built different, literally.",
+      "context": "general",
+      "timeOfDay": "early_morning"
+    },
+    {
+      "id": 17,
+      "text": "Skipped yesterday? Today you're back. That's what matters.",
+      "context": "after_skip",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 18,
+      "text": "RPE 10 means you left nothing in the tank. Respect.",
+      "context": "high_intensity",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 19,
+      "text": "Deload week: Strategic recovery, not weakness.",
+      "context": "deload",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 20,
+      "text": "Your bench is climbing. Keep pushing the ceiling higher.",
+      "context": "after_bench",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 21,
+      "text": "Saturday squad: Weekend warriors earn Monday victories.",
+      "context": "weekend",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 22,
+      "text": "That squat depth though. Full range, full gains.",
+      "context": "after_squat",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 23,
+      "text": "Volume day: More sets, more growth, more you.",
+      "context": "high_volume",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 24,
+      "text": "Strength isn't given. It's earned, one rep at a time.",
+      "context": "general",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 25,
+      "text": "10 workouts this month. You're becoming unstoppable.",
+      "context": "high_frequency",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 26,
+      "text": "Late night lifter: While the city sleeps, you rise.",
+      "context": "general",
+      "timeOfDay": "night"
+    },
+    {
+      "id": 27,
+      "text": "Form over ego. Perfect reps build perfect physiques.",
+      "context": "general",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 28,
+      "text": "Midday workout: Lunch break? More like muscle break.",
+      "context": "general",
+      "timeOfDay": "afternoon"
+    },
+    {
+      "id": 29,
+      "text": "Your OHP is progressing. Shoulders of a titan loading...",
+      "context": "after_ohp",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 30,
+      "text": "Rest between sets is when champions visualize success.",
+      "context": "during_workout",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 31,
+      "text": "Friday finisher: End the week stronger than you started.",
+      "context": "friday",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 32,
+      "text": "Biceps and triceps: Armed and dangerous.",
+      "context": "arm_day",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 33,
+      "text": "20 days straight. This isn't a streak, it's a lifestyle.",
+      "context": "very_long_streak",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 34,
+      "text": "Progressive overload: Yesterday's ceiling, today's floor.",
+      "context": "general",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 35,
+      "text": "The burn is temporary. The results are permanent.",
+      "context": "during_workout",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 36,
+      "text": "Warmup complete. Time to show gravity who's boss.",
+      "context": "after_warmup",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 37,
+      "text": "Your pull-ups are multiplying. Soon you'll need weight.",
+      "context": "after_pullups",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 38,
+      "text": "Sunday session: Seven days without training makes one weak.",
+      "context": "sunday",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 39,
+      "text": "Compound movements: Building complete strength.",
+      "context": "general",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 40,
+      "text": "That was RPE 9? You've got more in the tank.",
+      "context": "during_workout",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 41,
+      "text": "Back-to-back days. Recovery is part of your strength.",
+      "context": "consecutive_days",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 42,
+      "text": "Your row is getting stronger. Back development incoming.",
+      "context": "after_row",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 43,
+      "text": "Empty gym is your playground. Time to work.",
+      "context": "general",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 44,
+      "text": "Isolation work: Details make the masterpiece.",
+      "context": "isolation_work",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 45,
+      "text": "Week 4 of the program. Momentum is building.",
+      "context": "program_progress",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 46,
+      "text": "Grip strength increasing. Everything else follows.",
+      "context": "general",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 47,
+      "text": "Cardio? Your heart gains from heavy squats too.",
+      "context": "general",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 48,
+      "text": "Today's struggle is tomorrow's warm-up weight.",
+      "context": "general",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 49,
+      "text": "Final set. This is where you separate from the pack.",
+      "context": "during_workout",
+      "timeOfDay": "any"
+    },
+    {
+      "id": 50,
+      "text": "Workout complete. You're 1% stronger than yesterday.",
+      "context": "post_workout",
+      "timeOfDay": "any"
+    }
+  ]
+}

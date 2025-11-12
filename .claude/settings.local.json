@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone:*)",
+      "Read(/tmp/free-exercise-db/**)",
+      "Bash(./gradlew:*)",
+      "Bash(grep:*)",
+      "Bash(curl:*)",
+      "Bash(/Users/varunmv/Library/Android/sdk/platform-tools/adb uninstall:*)",
+      "Bash(/Users/varunmv/Library/Android/sdk/platform-tools/adb install app/build/outputs/apk/debug/app-debug.apk)",
+      "WebFetch(domain:m3.material.io)",
+      "WebFetch(domain:github.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
